@@ -17,7 +17,7 @@ body{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-    width: 1600px;
+    
     margin: 0px auto;
 }
 
@@ -29,19 +29,16 @@ body{
     margin-right: 93px;
 }
 
-.container-for-dimensions{
+.header-border {
+    border-bottom: 1px solid #ECECEC ;
+}
+
+.page-header,
+.container-for-dimensions
+ {
     width: 1200px;
     margin: 0px auto;
-}
 
-.header-container, .hero-section
-{
-    padding-left: 215px;
-}
-
-.header-container {
-    padding: 32px 0px;
-    border-bottom: 1px solid #ECECEC ;
 }
 
 .span-for-logo{
@@ -51,11 +48,13 @@ body{
 .page-header{
     background-color: #FFFFFF;
     display: flex;
-    padding-left: 215px;
+    padding: 32px 0px;
 }
 
 .unstyled-list{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .link{
@@ -109,9 +108,9 @@ body{
 
 .button-list{
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 8px;
-    padding: 94px 288px 50px 288px;
+    padding: 94px 0px 50px 0px;
 }
 
 .container-list{
@@ -122,22 +121,17 @@ body{
     margin-bottom: 94px;
     margin: 0;
     padding: 0;
-    width: 100%;
-    max-width: 1600px;
+    justify-content: center;
     margin: 0 auto;
     padding-bottom: 94px;
+    align-items: center;
 }
 
 .container-list-studio{
     display: flex;
     gap: 30px;
-    padding-left: 20px;
-    width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 30px;
     padding-bottom: 94px;
-    
 }
 
 .container{
@@ -221,8 +215,6 @@ body{
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-
-        
 }
 
 .informations-of-contact{
@@ -246,12 +238,8 @@ body{
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    padding-left: 20px;
-    width: 100%;
-    max-width: 1600px;
-    
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .strenghts-title{
@@ -286,8 +274,8 @@ body{
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    
     padding-bottom: 50px;
+    margin-top: 94px;
 }
 
 .what-we-do-images{
@@ -298,21 +286,11 @@ body{
     mix-blend-mode: normal;
 }
 
-.container-studio-section{
-    padding-bottom: 94px;
-}
-
-.footer-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
 .footer-style{
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
-    padding-left: 215px;
+
 }
 
 ul.informations-of-contact li{
@@ -323,7 +301,19 @@ ul.informations-of-contact li:last-child {
     margin-bottom: 60px;
   }
 
-*{
+   .general-container{
+    width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+  } 
+
+.center-text{
+    display: flex;
+    justify-content: center;
+}
+
+  *
+{
     margin-block-start: 0px;
     margin-block-end: 0px;
     margin-inline-start: 0px;
