@@ -29,9 +29,16 @@ body{
     margin-right: 93px;
 }
 
-.header-container {
-    padding: 32px 0px;
+.header-border {
     border-bottom: 1px solid #ECECEC ;
+}
+
+.page-header,
+.container-for-dimensions
+ {
+    width: 1200px;
+    margin: 0px auto;
+
 }
 
 .span-for-logo{
@@ -41,6 +48,7 @@ body{
 .page-header{
     background-color: #FFFFFF;
     display: flex;
+    padding: 32px 0px;
 }
 
 .unstyled-list{
@@ -114,7 +122,6 @@ body{
     margin: 0;
     padding: 0;
     justify-content: center;
-    
     margin: 0 auto;
     padding-bottom: 94px;
     align-items: center;
@@ -279,18 +286,11 @@ body{
     mix-blend-mode: normal;
 }
 
-/* .footer-section{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-  }
-*/
 .footer-style{
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
+
 }
 
 ul.informations-of-contact li{
@@ -301,16 +301,16 @@ ul.informations-of-contact li:last-child {
     margin-bottom: 60px;
   }
 
-  /* .general-container{
-    padding-left: 215px;
-    padding-right: 215px;
-    
-  } */
+   .general-container{
+    width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+  } 
 
-  header, section {
-    padding-left: 215px;
-    padding-right: 215px;
-  }
+.center-text{
+    display: flex;
+    justify-content: center;
+}
 
   *
 {
